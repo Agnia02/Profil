@@ -21,9 +21,9 @@ class EducationActivity : AppCompatActivity() {
         educationView = findViewById(R.id.rvEducation)
         educationView.layoutManager = LinearLayoutManager(this)
 
-        list.add(SchoolData("RA Tunas Bangsa", "Dukuh Badong-Sidogemah, Kec. Sayung, Kab. Demak"))
-        list.add(SchoolData("SD Negeri Sidogemah 1", "Dukuh Badong-Sidogemah, Kec. Sayung, Kab. Demak"))
-        list.add(SchoolData("SMP Negeri 2 Sayung", "Jl. Raya Semarang-Demak Km.14 Onggorawe, Kec. Sayung, Kab. Demak"))
+        list.add(SchoolData("RA Futuhiyyah Kudu", "Penggaron Lor, Kec. Genuk Kota. Semarang"))
+        list.add(SchoolData("MI Futuhiyyah 01 Kudu", "Penggaron Lor, Kec. Genuk Kota. Semarang"))
+        list.add(SchoolData("Mts Futuhiyyah Kudu", "Penggaron Lor, Kec. Genuk Kota. Semarang"))
         list.add(SchoolData("SMK Negeri 1 Sayung", "Jl. Raya Semarang-Demak Km.14 Onggorawe, Kec. Sayung, Kab. Demak"))
 
         educationAdapter = SchoolAdapter(list)

@@ -45,7 +45,7 @@
                     android:id="@+id/alamatSchool"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="zuli25176@gmail.com"
+                    android:text=""
                     android:textSize="20sp"
                     android:textColor="#000" />
 

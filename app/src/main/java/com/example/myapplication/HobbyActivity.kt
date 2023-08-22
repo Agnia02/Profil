@@ -22,7 +22,6 @@ class HobbyActivity : AppCompatActivity() {
 
         list.add(HobbyData("Menyanyi", "Mengisi Waktu Kosong Saya"))
         list.add(HobbyData("Mendengarkan Musik", "Menemani Saya Jika Mengerjakan Tugas"))
-        list.add(HobbyData("Membaca Webtoon", "Jika Ada Cerita Yang Menarik Akan Saya Baca"))
 
         hobbyAdapter = HobbyAdapter(list)
         hobbyView.adapter = hobbyAdapter

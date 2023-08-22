@@ -16,15 +16,15 @@ class PortofolioActivity : AppCompatActivity() {
 
         listPortofolio.add(
             PortofolioData(
-            R.drawable.web, "tugas-web-codeigniter4",
-            "Project codeigniter4", "https://github.com/zuliana21/tugas-web-codeigniter4"
+            R.drawable.web, "CodeIgniter4",
+            "Project codeigniter4", "https://github.com/Agnia02/CodeIgniter4"
         )
         )
 
         listPortofolio.add(
             PortofolioData(
-            R.drawable.android, "jobsheet21",
-            "Recycler View", "https://github.com/zuliana21/jobsheet21"
+            R.drawable.android, "JOBsheet22",
+            "Recycler View", "https://github.com/Agnia02/JOBsheet22"
         )
         )
 
